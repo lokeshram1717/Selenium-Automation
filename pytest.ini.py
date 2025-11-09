@@ -1,0 +1,4 @@
+import pytest
+
+[pytest]
+addopts = --html=reports/test_report.html --self-contained-html
