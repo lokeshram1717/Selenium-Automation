@@ -40,31 +40,31 @@ SeleniumProject/
 6. Jenkins Integration Ready (CI/CD setup)
 
 **Prerequisites :-**
-1.Make sure you have the following installed:
-  a.Python 3.10 or above
-  b.Google Chrome browser
-2.ChromeDriver compatible with your Chrome version
-  a.Git
-  b.Pytest and Selenium libraries
-3.Install dependencies:
-  a.pip install -r requirements.txt
-4.Example requirements.txt:
-  a.pytest
-  b.selenium
-  c.pytest-html
-  d.openpyxl
+1. Make sure you have the following installed:
+  a. Python 3.10 or above
+  b. Google Chrome browser
+2. ChromeDriver compatible with your Chrome version
+  a. Git
+  b. Pytest and Selenium libraries
+3. Install dependencies:
+  a. pip install -r requirements.txt
+4. Example requirements.txt:
+  a. pytest
+  b. selenium
+  c. pytest-html
+  d. openpyxl
 
 **Running Tests :-**
-1.Run all tests: pytest -v
-2.Run a specific test file: pytest -v tests/test_login.py
-3.Run with HTML report: pytest -v --html=reports/test_report.html --self-contained-html
+1. Run all tests: pytest -v
+2. Run a specific test file: pytest -v tests/test_login.py
+3. Run with HTML report: pytest -v --html=reports/test_report.html --self-contained-html
 
 **Data-Driven Testing :-**
-1.Using CSV:
+1. Using CSV:
   Data stored in Data/test_data.csv
     "username,password,firstname,lastname,zipcode,product_name
     standard_user,secret_sauce,Lokesh,Ram,142301,Sauce Labs Bike Light"
-2.Using Excel:
+2. Using Excel:
   Data stored in Data/test_data.xlsx
 
 Note :- The utility reads headers dynamically and maps them to the test parameters.
@@ -80,7 +80,7 @@ b.In Source Code Management, choose Git and provide your repo URL.
 4. Run the build and check the reports folder for results.
 
 **Future Enhancements :-**
-1.Add logging using Python’s logging module
-2.Capture screenshots on failure
+1. Add logging using Python’s logging module
+2. Capture screenshots on failure
 3.Add test reports upload to Jenkins dashboard
 4.Include email notifications post test run
