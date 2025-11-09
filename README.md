@@ -32,12 +32,12 @@ SeleniumProject/
 └── README.md                     # Project documentation
 
 **Features :-**
-1.Page Object Model (POM) for maintainability
-2.Data-driven testing using CSV and Excel
-3.Pytest as the core test runner
-4.HTML Reports using pytest-html
-5.Alert Handling implemented gracefully
-6.Jenkins Integration Ready (CI/CD setup)
+1. Page Object Model (POM) for maintainability
+2. Data-driven testing using CSV and Excel
+3. Pytest as the core test runner
+4. HTML Reports using pytest-html
+5. Alert Handling implemented gracefully
+6. Jenkins Integration Ready (CI/CD setup)
 
 **Prerequisites :-**
 1.Make sure you have the following installed:
